@@ -26,7 +26,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: '8.1'
+          gradle-version: '7.5'
 
       - name: Build Debug APK
         working-directory: DangbeiGuard-v3/DangbeiGuard
