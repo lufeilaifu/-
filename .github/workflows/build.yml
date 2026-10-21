@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: DangbeiGuard-APK
-          path: DangbeiGuard-v3/DangbeiGuard/app/build/outputs/apk/debug/*.apk
+          path: DangbeiGuard-v3/DangbeiGuard-v3/DangbeiGuard/app/build/outputs/apk/debug/*.apk
