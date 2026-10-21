@@ -29,11 +29,11 @@ jobs:
           gradle-version: '8.1'
 
       - name: Build Debug APK
-        working-directory: DangbeiGuard
+        working-directory: DangbeiGuard-v2/DangbeiGuard
         run: gradle assembleDebug
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: DangbeiGuard-APK
-          path: DangbeiGuard/app/build/outputs/apk/debug/*.apk
+          path: DangbeiGuard-v2/DangbeiGuard/app/build/outputs/apk/debug/*.apk
