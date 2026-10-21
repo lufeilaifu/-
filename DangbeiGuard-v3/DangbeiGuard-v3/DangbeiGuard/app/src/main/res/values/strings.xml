@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">当贝桌面守护</string>
+    <string name="accessibility_service_description">当贝桌面守护服务：当系统桌面（灵控桌面）被唤起时，自动切回当贝桌面。需要此权限才能监听窗口变化。</string>
+    <string name="service_status_running">守护服务运行中</string>
+    <string name="service_status_stopped">守护服务未启动</string>
+    <string name="btn_open_accessibility">前往开启无障碍服务</string>
+    <string name="hint_not_enabled">检测到守护服务未启用，点击下方按钮前往系统设置开启。</string>
+    <string name="hint_enabled">守护服务已启用。按 Home 键时将自动保持在当贝桌面。</string>
+</resources>
