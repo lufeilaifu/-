@@ -29,7 +29,7 @@ jobs:
           gradle-version: '7.5'
 
       - name: Build Debug APK
-        working-directory: DangbeiGuard-v3/DangbeiGuard
+        working-directory: DangbeiGuard-v3/DangbeiGuard-v3/DangbeiGuard
         run: gradle assembleDebug
 
       - name: Upload APK artifact
